@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 
-int
-main ()
+int main ()
 {
   int opcao = 0;
   printf ("Digite 1 para 2D, 2 para 3D");
@@ -137,7 +136,7 @@ main ()
 	  int raio = 0;
 	  printf ("Digite o tamanho do raio");
 	  scanf ("%d", &raio);
-	  int volume = (4*3(raio*raio*raio))/3;
+	  int volume = (4*3*(raio*raio*raio))/3;
 	  printf ("Volume: aprox %d cm3", volume);
 	}
 	if (forma == 3){
